@@ -1,0 +1,881 @@
+/* Basic Setting */
+a {
+  color: #0d6efd;
+  text-decoration: none!important;
+}
+p{
+  color: black;
+}
+h1 {
+  font-size: 50px!important;
+  line-height: 60px!important;
+  font-weight: 400!important;
+  padding: 0;
+}
+
+/* Menu Section */
+a.nav-item.signin {
+  border: 2px solid #ffffff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color:white
+}
+a.nav-item.signup {
+  border: 2px solid #1791d0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #1791d0;
+  color:white
+}
+a.nav-item.signup:hover {
+  border: 2px solid #ffffff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: none;
+}
+a.nav-item.signin:hover {
+  border: 2px solid #1791d0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #1791d0;
+}
+.navbar {
+    background: transparent;
+}
+.ml-auto.navbar-nav {
+  padding: 0px 23%;
+}
+.nav-item {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  background: #040404;
+}
+}
+/* Home Section */
+/* Slider  */
+.home-slider {
+  margin-top: -77px;
+}
+.slider-heading {
+  padding-top: 10%;
+}
+h4.slider-title {
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0;
+}
+p.slider-par {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Roboto,sans-serif;
+  color: #b7b7b7;
+  font-weight: 300;
+  padding: 2rem 15rem;
+  color: white;
+}
+.head-pic img {
+  width: 100%;
+}
+.head-picture{
+  position:relative;
+}
+.head-pic_1 {
+  left: 100px;
+}
+.head-pic_2 {
+  left: 40%;
+  top: 92px;
+}
+.head-pic {
+  position: absolute;
+  width: 52%;
+}
+.mining-title h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #000;
+  font-weight: 400;
+  padding: 0;
+}
+
+
+/* Mining And Trading Section */
+.nav-tabs {
+  border-bottom: none!important;
+}
+ul.mb-3.nav.nav-tabs {
+  padding: 30px 0px;
+}
+.mining-body p {
+  color: black;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+.mining-trading {
+  background: #f9f9fb;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #009de6!important;
+  border-color: #a5a5a5 #a5a5a5 #a5a5a5 !important;
+  border-radius: 5px!important;
+  padding: 8px 82px;
+  color: white!important;
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-top-right-radius: .25rem;
+  background-color: #fff;
+  border-radius: 5px!important;
+  padding: 8px 82px;
+  border-color: #dee2e6 #dee2e6 #dee2e6!important;
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #757575!important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.mining-body {
+  text-align: center;
+  margin-top: -5px;
+}
+.mining-body {
+  text-align: center;
+}
+
+.mining-body img {
+  width: 25%;
+}
+.mining-body h3 {
+  font-size: 23px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 500;
+  padding: 0;
+}
+.mining-box {
+  padding: 40px 22px;
+  border: 1px solid #e5e5eb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 3px #e5e5eb;
+  background: white;
+}
+.number-01 h1 {
+  background: #009de6;
+  display: inline;
+  padding: 0px 11px;
+  border-radius: 50%;
+  font-size: 25px!important;
+  color: white;
+}
+.banarinmage img {
+  width: 100%;
+}
+/* trading */
+
+.trading-body {
+  text-align: center;
+  margin-top: -5px;
+}
+.trading-title h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding: 0;
+}
+.trading-body {
+  text-align: center;
+}
+
+.trading-body img {
+  width: 25%;
+}
+.trading-body h3 {
+  font-size: 23px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 0;
+}
+.trading-box {
+  padding: 40px 22px;
+  border: 1px solid #e5e5eb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 3px #e5e5eb;
+  background: #009de6;
+}
+.number-02 h1 {
+  background: #ffffff;
+  display: inline;
+  padding: 0px 11px;
+  border-radius: 50%;
+  font-size: 25px!important;
+  color: #009de6;
+}
+.trading-body p {
+  color: white;
+}
+
+
+/* Cloud Mining */
+.cloud-mining-para p {
+  font-size: 20px;
+  padding: 15px 40px;
+  color: black;
+}
+img.miningimg {
+  width: 40%;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 1px 1px 15px 0px #efefef;
+  margin-bottom: 15px;
+}
+img.miningchart {
+  width: 115%;
+}
+.underninig p {
+  color: black;
+}
+button.btn.btn-primary.bbtn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 50px;
+    min-width: 220px;
+    border-radius: 4px;
+    padding: 0 10px;
+    background-color: #1791d0;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Mining Contract  */
+.mining-contract p {
+  font-size: 20px ;
+  padding: 15px 50px;
+  color: black;
+}
+.year-contract {
+  border: 1px solid #dee2e6;
+  padding-top: 110px;
+  margin-top: -96px;
+  border-radius: 5px;
+}
+.calc-row {
+  padding: 10px 0px 10px 12px;
+}
+
+.calc-td.calc-td_title {
+  color: #2b2d33;
+  font-weight: 500;
+  text-align: left;
+}
+.calc-row.calc-row_mod {
+  background: #f9f9fb;
+}
+.col-md-2.pricing {
+  padding: 0px!important;
+}
+.calc-row.calc-modern {
+  padding: 44px 0px 45px 12px;
+}
+.calc-row.calc-row_mod.re {
+  padding: 22px 0px 22px 12px;
+}
+.calc-row.calc-row_mod.re {
+  padding: 22px  0px 22px 12px;
+}
+
+.calc-td.calc-td_head {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.calc-row.colc-modsha {
+  margin-top: -16px;
+  padding-bottom: 20px;
+}
+.calc-td.calc-td_count {
+  color: #000;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 45px;
+}
+a.auto-calclink {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+a.btn.auto-buylink {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 50px;
+  min-width: 175px;
+  border-radius: 4px;
+  padding: 0 0px;
+  background-color: #44acff;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.col-md-2.pricing.tile {
+  margin-top: 25px;
+}
+div#slick-slide61 {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 25px 0px;
+}
+div#slick-slide61:hover {
+  background: white;
+  border: 1px solid #fdfdfd;
+  border-radius: 5px;
+  padding: 25px 0px;
+  box-shadow: 0px 0px 30px 15px #f5f5f5;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -ms-transition: 0.1s;
+}
+
+
+/* Minig Calculator */
+section.miningi-income-calculator {
+  background: #f9f9fb;
+}
+.calculator-contract p {
+  color: black;
+}
+.mining-calculator {
+  position: relative;
+}
+.calculator-contract {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1.doller5000 {
+  padding-top: 28px;
+  font-weight: 300!important;
+  padding-bottom: 50px;
+  color: black;
+}
+button.btn.btn-primary.bbtn.rr.mt-4 {
+  position: absolute;
+  width: 10px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.col-md-6.calculat {
+  border-right: 4px solid #44acff73;
+}
+.mining-calculator {
+  position: relative;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 0px 15px 2px #b9b9b9;
+  border-radius: 5px;
+}
+.calcbox {
+  padding: 22px 15px;
+  box-shadow: 0px 0px 5px 0px #b9b9b9;
+  border-radius: 5px;
+  background: #cddeea;
+}
+.colsIncome h2 {
+  font-size: 50px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+img.tradingchart {
+  width: 128%;
+  margin-left: -108px;
+}
+.selectOp {
+  display: flex;
+  align-items: baseline;
+}
+/* Pledge Your Mining Contract */
+
+.pledge-work p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.Pledge-mining-para p {
+  font-size: 20px;
+  padding: 15px 100px;
+}
+section.pledge-mining-contract {
+  background: #44acff;
+}
+.Pledge-mining-title h1 {
+  color: #fff;
+}
+.pledging-works h1 {
+  color: white;
+}
+.pledge-work h4, p {
+  color: white;
+}
+img.miningimg.trad {
+  width: 35%;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+  padding: 1px;
+  box-shadow: 1px 1px 15px 0px #efefef;
+  margin-bottom: 15px;
+  background: white;
+}
+/* No Previous Experience in Trading? */
+section.previous-experience-section {
+  background: #090909;
+}
+.Previous-mining-title h1 {
+  padding: 15px 0px;
+}
+img.traider {
+  width: 100%;
+}
+.Previous-mining-title h1 {
+  color: white;
+}
+.Previous-mining-title p {
+  font-size: 20px;
+  color: white;
+}
+.chose-trade h3 {
+  color: white;
+  padding-top: 15px;
+}
+.Withdraw-title p {
+  color: black;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.logoicom img {
+  padding: 40px;
+}
+
+/* Pricing page */
+.price-slider {
+  margin-top: -76px;
+  padding-top: 130px;
+}
+.price-title h1 {
+  color: white;
+  font-size: 75px!important;
+  padding-bottom: 20px;
+}
+.price-title p {
+  font-size: 20px;
+}
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+h5.card-title.text-muted.text-uppercase.text-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 5px 5px 0 0;
+  color: #212121!important;
+  font-size: 35px;
+  line-height: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+/* FAQ */
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid rgb(195 195 195 / 28%)!important;
+}
+button.accordion-button.collapsed {
+  padding: 2rem 2.5rem!important;
+}
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #fbfbfb;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-body {
+  padding: 1rem 2.25rem;
+}
+button.accordion-button.collapsed {
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 300;
+  padding: 0;
+}
+.accordion-collapse.collapse.show {
+  background: #fbfbfb59;
+}
+.accordion-flush .accordion-item .accordion-button {
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 300;
+  padding: 1.5rem 2.5rem!important;
+}
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #f3f3f3!important;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+/* About US */
+.about-form {
+  border: 1px solid #e8e8e8;
+  padding: 50px 45px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px 3px #dedede;
+}
+.about-form:hover {
+  border: 1px solid #e8e8e8;
+  padding: 50px 45px;
+  box-shadow: 0px 0px 35px 5px #dedede;
+}
+.about-01 h2 {
+  font-size: 35px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 400;
+  padding: 0;
+}
+.about-01 p {
+  font-size: 20px;
+  color: black;
+  padding-top: 15px;
+}
+.about-02 h2 {
+  font-size: 35px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 400;
+}
+.locations {
+  display: flex;
+  align-items: center;
+}
+.locations p {
+  color: black;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.add-phone {
+  display: flex;
+  align-items: center;
+}
+.arresss h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 400;
+}
+p.assdd {
+  color: black;
+  padding-left: 15px;
+  font-size: 20px;
+}
+img.mapimg {
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  padding: 0px;
+}
+img.mapimg {
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  padding: 8px;
+  background: white;
+}
+img.mapimg:hover {
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  padding: 8px;
+  background: #f7f7f7;
+}
+/* signIn Page */
+.sign-in-form {
+  width:45%;
+  left: 50%;
+  top: 20%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  background: #f7f7f7;
+  padding: 65px 50px;
+  border-radius: 10px;
+}
+label.px-3 {
+  position: relative;
+  padding: 0 0 0 35px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+h3.loginh3 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #000;
+  font-weight: 300;
+  padding: 0;
+}
+.form-control {
+  padding: 0.52rem .75rem!important;
+
+}
+p.forgot-password.text-right.pt-3 {
+  color: #5f5f5f;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  cursor: pointer;
+
+}
+img.popupmasses {
+  width: 100%;
+}
+/* Other Page */
+.privacy-policy p{
+  color:#5f5f5f;
+  font-size: 18px;
+}
+
+/* footer */
+
+.footer {
+  background: #090909;
+  padding: 55px 0px;
+}
+.footer-sec h4 {
+  color: white;;
+}
+.footer-sec p {
+  color: rgb(202, 202, 202);;
+}
+.footer-icon h4{
+  color: white;;
+}
+.footer-bar.text-center {
+  background: black;
+  padding: 15px 0px;
+}
+.footer-bar h5 {
+  color: #b7b7b7;
+  font-size: 15px;
+}
+
+.modal-dialog {
+  max-width: 130vh !important;
+  margin: 1.75rem auto;
+}
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: none!important;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+    margin-bottom: -56px;
+    margin-right: 10px;
+    z-index: 99;
+}
+.modal-content {
+  background-color: rgba(255, 255, 255, 0)!important;
+
+}
+
+
+@media only screen and (max-width: 768px)  {
+  h1 {
+    font-size: 30px!important;
+    line-height: 30px!important;
+    font-weight: 400!important;
+    padding: 0;
+}
+  .navbar {
+    background: #030303;
+}
+.ml-auto.navbar-nav {
+  padding: 0px 2%;
+}
+.slider-heading {
+  padding-top: 25%;
+}
+h4.slider-title {
+  font-size: 35px;
+  line-height: 45px;
+  color: #fff;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+  .head-pic {
+    position: absolute;
+    width: 55%;
+}
+.head-pic_1 {
+  left: 35px;
+}
+.head-pic_2 {
+  left: 38%;
+  top: 30px;
+}
+section.home-slider{
+  height: 85vh!important;
+}
+  h1.slider-title {
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 60px;
+}
+p.slider-par {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Roboto,sans-serif;
+  color: #b7b7b7;
+  font-weight: 300;
+  padding: 0rem 3rem;
+}
+.mining-title h1 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #000;
+  font-weight: 400;
+  padding: 0;
+}
+img.miningchart {
+  width: 100%!important;
+}
+.Pledge-mining-para p {
+  font-size: 20px;
+  padding: 15px 10px;
+}
+.cloud-mining-para p {
+  font-size: 15px;
+  padding: 15px 20px;
+  color: black;
+}
+.mining-contract p {
+  font-size: 16px;
+  padding: 15px 20px;
+  color: black;
+}
+img.tradingchart {
+  width: 100%;
+  margin-left: 0px;
+}
+}
